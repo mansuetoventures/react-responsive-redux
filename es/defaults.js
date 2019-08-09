@@ -5,7 +5,7 @@ export var breakPoints = {
   lg: 1200
 };
 export var defaultSizes = {
-  phone: breakPoints.sm - 1,
+  phone: breakPoints.sm,
   tablet: breakPoints.md - 1,
   desktop: breakPoints.lg
 };
