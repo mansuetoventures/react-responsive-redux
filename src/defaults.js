@@ -3,8 +3,8 @@
 // > phone && <= tablet is a tablet, and > tablet is a desktop
 export const breakPoints = {
   xs: 480,
-  sm: 768,
-  md: 992,
+  sm: 480,
+  md: 1200,
   lg: 1200,
 }
 

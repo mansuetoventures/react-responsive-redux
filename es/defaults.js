@@ -1,7 +1,7 @@
 export var breakPoints = {
   xs: 480,
-  sm: 768,
-  md: 992,
+  sm: 480,
+  md: 1200,
   lg: 1200
 };
 export var defaultSizes = {

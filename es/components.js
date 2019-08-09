@@ -58,7 +58,7 @@ export var LgScreen = responsiveWrapper({
   query: "(min-width: ".concat(breakPoints.lg, "px)")
 });
 export var XsScreenHidden = responsiveWrapper({
-  minWidth: breakPoints.sm + 2
+  minWidth: breakPoints.sm
 });
 export var SmScreenHidden = responsiveWrapper({
   query: "(max-width: ".concat(breakPoints.sm - 1, "px), (min-width: ").concat(breakPoints.md, "px)")
