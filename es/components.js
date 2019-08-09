@@ -46,7 +46,7 @@ export var responsiveWrapper = function responsiveWrapper() {
   })(MediaQueryWrapper);
 };
 export var XsScreen = responsiveWrapper({
-  maxWidth: breakPoints.sm - 1
+  maxWidth: breakPoints.sm
 });
 export var SmScreen = responsiveWrapper({
   query: "(min-width: ".concat(breakPoints.sm, "px) and (max-width: ").concat(breakPoints.md - 1, "px)")

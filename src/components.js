@@ -39,7 +39,7 @@ export const responsiveWrapper = (props = {}) => connect(state => ({
   fakeWidth: state.responsive.fakeWidth, ...props,
 }))(MediaQueryWrapper)
 
-export const XsScreen = responsiveWrapper({ maxWidth: breakPoints.sm - 1 })
+export const XsScreen = responsiveWrapper({ maxWidth: breakPoints.sm })
 export const SmScreen = responsiveWrapper({
   query: `(min-width: ${breakPoints.sm}px) and (max-width: ${breakPoints.md
     - 1}px)`,
