@@ -46,7 +46,7 @@ export var responsiveWrapper = function responsiveWrapper() {
   })(MediaQueryWrapper);
 };
 export var XsScreen = responsiveWrapper({
-  maxWidth: breakPoints.sm
+  maxWidth: breakPoints.sm - 1
 });
 export var SmScreen = responsiveWrapper({
   query: "(min-width: ".concat(breakPoints.sm, "px) and (max-width: ").concat(breakPoints.md - 1, "px)")
@@ -58,7 +58,7 @@ export var LgScreen = responsiveWrapper({
   query: "(min-width: ".concat(breakPoints.lg, "px)")
 });
 export var XsScreenHidden = responsiveWrapper({
-  minWidth: breakPoints.sm
+  minWidth: breakPoints.sm + 2
 });
 export var SmScreenHidden = responsiveWrapper({
   query: "(max-width: ".concat(breakPoints.sm - 1, "px), (min-width: ").concat(breakPoints.md, "px)")
